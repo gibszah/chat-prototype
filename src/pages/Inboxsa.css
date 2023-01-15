@@ -1,0 +1,121 @@
+.message-left {
+    border-radius: 0px 10px 20px 30px;
+    text-align: justify;
+    align-items: left;
+    background-color: #FCEED3;
+    padding: 8px;
+    list-style: none;
+    margin: 5px;
+    font-size: 14px;
+    margin-left: 0;
+    clear: both;
+    max-width: fit-content;
+    margin-right: 40%;
+
+    
+}
+
+.message-right {
+    text-align:justify;
+    margin-left: 50%;
+    max-width: 350px;
+    font-size: 14px;
+    align-items: right;
+    background-color: #EEDCFF;
+    padding: 10px;
+    margin: 5px;
+    float: right;
+    clear:both;
+    border-radius: 20px 0px 20px 10px;
+   
+}
+
+.you {
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    float: right;
+    padding-left: 85%;
+    margin: 2px;
+    clear:both;
+    
+}
+
+.mary {
+    color: #E5A443;
+    font-size: 15px;
+    float: left;
+    font-weight: 500;
+    margin: 1px;
+    clear: both;
+   
+}
+
+.oba {
+     color: #a38455;
+    font-size: 15px;
+    float: left;
+    font-weight: 500;
+    margin: 2px;
+    clear: both;
+    padding: 1px;
+}
+
+.waktu {
+    margin: 1.5px;
+    color: #5f5e64;
+    font-size: 10px;
+}
+
+.input {
+    width: 98%;
+ position: fixed;
+bottom: 50px;
+ height: 50px;
+ background-color: white;
+ padding: 10px;
+ display:inline-flexbox;
+ 
+  
+}
+
+.inpt {
+    width: 85%;
+    margin: 5px;
+   border: none;
+   outline: none;
+    color: #2f2d52;
+    background-color: #e9e8f7;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 8px;
+
+   
+}
+
+.close {
+    font-size: 20px;
+
+}
+
+.isiChat {
+    overflow: auto;
+    padding-left: 1px;
+    width: 100%;
+    height: 425px;
+    flex-wrap: wrap;
+    background-color: rgb(244, 252, 243);
+    
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    border-radius: 10px;
+    color:rgb(0, 0, 0)
+}
+
+.btn {
+    cursor: pointer;
+}
+
+
+

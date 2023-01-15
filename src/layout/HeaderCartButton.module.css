@@ -1,0 +1,82 @@
+.button {
+  cursor: pointer;
+  height: 68px;
+  width: 68px;
+ 
+  align-items: center;
+  border: none;
+  background-color: #8785FF;
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  
+  position:fixed;
+  bottom: 27px;
+  right: 34px;
+ transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.button2 {
+  cursor: pointer;
+  height: 68px;
+  width: 68px;
+ 
+  align-items: center;
+  border: none;
+  background-color: #F2F2F2;
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  
+  position:fixed;
+  bottom: 27px;
+  right: 127px;
+ transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.shadow {
+  cursor: pointer;
+  height: 68px;
+  width: 68px;
+ 
+  align-items: center;
+  border: 5px;
+  background-color:#4F4F4F;
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  
+  position:fixed;
+  bottom: 27px;
+  right: 49px;
+}
+
+.button:hover,
+.button:active {
+  background-color: #725df8;
+  transform: scale(1.1);
+}
+.button2:hover,
+.button:active {
+  background-color: #8785FF;
+   transform: scale(1.1);
+}
+
+.shadow:hover,
+.shadow:active {
+  border-color: #fff;
+}
+
+
+ .icon {
+padding-left: 12px;
+padding-top: 4px;
+ 
+}
+.icon2 {
+padding-left: 14px;
+padding-top: 4px;
+}
+
+
+
+
